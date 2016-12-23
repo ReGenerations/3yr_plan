@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- ReGenerations Garden Services, LLC 2016-->
+<html>
+
+<head>
+<style>
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 9999px;  
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>The 3 Year, $150,000 Plan</h1>
+
+<h3>By: Regenerations Garden Services, LLC</h3>
+
+<hr>
+
+<h3>December 2016 Draft</h3>
+
+<hr>
+
+<button class="accordion">Land</button>
+<div class="panel">
+
+ <button class="accordion">Abstract</button>
+ <div class="panel">
+  <p>The plot of land dictates all elements of an integrated biological systems plan, such as this.</p>
+  <p>Some examples: The slope is best if downwards towards the equator. Gentle slopes are much easier to work with for our proposed equipment. The surrounding properties have an impact on the chosen property. Farms spray pesticides and fertilizers, industry has byproducts, et cetera. These exterior forces will be a consideration, for example, near Industrial Agriculture Fields, a nonfood biological barrier gives some peace of mind. We also consider climate, proximity to markets, existing biological systems, current and previous land use, and more.</p>
+  <p>A plan limited to $150,000 has approximately a $50,000 land budget.</p>
+  <p>Zoning, and the authority of the local governments, are major factors considering the proposed building/housing methods, as well as the hopes to be a living <i>and</i> working community <i>and</i> business.</p>
+ </div>
+ <button class="accordion">Potential Sites</button>
+  <div class="panel">
+   <ul>
+    <li><a href="pages/salem_plot.html">13.36 Acre Lot at OH-124 & OH-1</a>
+     <ul>
+      <li> <a href="http://www.landflip.com/land.asp?listing_id=109499">Listing</a></li>
+      <li><a href="maps/design.png">Design</a></li>
+     </ul>
+    </li>
+  </ul>
+  </div>
+</div>
+
+<button class="accordion">Personnel</button>
+<div class="panel">
+<button class="accordion">Core Builders</button>
+<div class="panel">
+ <ul>
+  <li><a href="pages/jordan.html">Jordan</a></li>
+  <li><a href="pages/kevin.html">Kevin</a></li>
+  <li><a href="pages/luke.html">Luke</a></li>
+  <li><a href="pages/sam.html">Sam</a></li>
+ </ul>
+</div>
+
+<button class="accordion">Secondary Contributors</button>
+<div class="panel">
+ <ul>
+  <li><a href="pages/joel.html">Joel</a></li>
+  <li><a href="pages/terra.html">Terra</a></li>
+ </ul>
+</div>
+
+<button class="accordion">Core Dependents</button>
+<div class="panel">
+ <ul>
+  <li><a href="pages/lucy.html">Lucy</a></li>
+ </ul>
+
+ 
+</div>
+</div>
+
+<button class="accordion">Necessary Expenditures</button>
+<div class="panel">
+ <p>put in bar that matches buttons for total cost</p>
+</div>
+
+<button class="accordion">Housing</button>
+<div class="panel">
+ <button class="accordion">Abstract</button>
+  <div class="panel">
+   abstract for housing
+  </div>
+ <button class="accordion">Detailed Pages</button>
+ <div class="panel">
+  <ul>
+   <li><a href="pages/cob.html">Making Cob</a></li>
+  </ul>
+ </div>
+ <button class="accordion">Miscellaneous</button>
+ <div class="panel">
+  <ul>
+   <li>Examples of Free Materials</li>
+    <ul>
+     <li><a href="pages/from_web/free_clay_example.html">A Posting of Free Clay</a></li>
+    </ul>
+  </ul>
+ </div>
+
+</div>
+
+<button class="accordion">Agriculture</button>
+<div class="panel">
+ <button class="accordion">For Community</button>
+ <div class="panel">
+  <ul>
+   <li><a href="pages/food_needs.html">Needs</li>
+   <li><a href="pages/crop_output.html">Potential Production</a></li>
+  </ul>
+ </div>
+ <button class="accordion">For Sale</button>
+ <div class="panel">
+  <ul>
+   <li><a href="pages/specialty_crops.html">Specialty Crops</li>
+   <li><a href="pages/crop_output.html">Potential Production and Sales</a></li>
+  </ul>
+ </div>
+ <button class="accordion">Machinery</button>
+ <div class="panel">
+  <h3>There are a few vital pieces of machinery for our agriculture.</h3>
+  <ul>
+   <li><a href="pages/tractor.html">A Multipurpose, Lightweight Tractor</li>
+   <li><a href="pages/chipper.html">A Middle Tier Chipper/Shredder</a></li>
+  </ul>
+  </div>
+</div>
+
+<button class="accordion">Revenue Stream</button>
+<div class="panel">
+ <button class="accordion">Garden Services</button>
+ <div class="panel">
+   <li><a href="pages/consultations.html">Consultations</a></li>
+   <li><a href="pages/installations.html">Installations</a></li>
+   <li><a href="pages/reclamations.html">Reclamations</a></li> 
+ </div>
+ <button class="accordion">Smart Garden Products</button>
+ <div class="panel">
+  <ul>
+   <li><a href="pages/aeroponics.html">Aeroponics</a></li>
+   <li><a href="pages/rain_barrel.html">Rain Barrel</a></li>
+   <li><a href="pages/succulent_wall_planter.html">Succulent Wall Planter</a></li>
+   <li><a href="pages/automated_outlets.html">Timer/Heater/Humidity Smart Power</a></li>
+  </ul>
+ </div>
+
+</div>
+
+<button class="accordion">Future Plans</button>
+<div class="panel">
+ <p></p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+</body>
+
+</html>
